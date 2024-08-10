@@ -1,0 +1,111 @@
+.baue img {
+    background-size: cover;
+}
+
+.frekl {
+    width: 1139px;
+    height: 90px;
+    background-color: rgb(196, 196, 196);
+    border-radius: 10px;
+}
+
+.frekl p {
+    margin-top: 30px;
+    color: rgba(0, 0, 0, 0.616);
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Arimo', sans-serif;
+}
+
+.nmean {
+    text-align: center;
+}
+
+.nmean h4 {
+    color: #ff9700;
+    font-size: 18px;
+    font-family: 'Arimo', sans-serif;
+    margin-top: 20px;
+}
+
+.nmean p {
+    color: #0303029d;
+   font-size: 12px;
+    font-family: 'Arimo', sans-serif;
+    margin-top: 10px;
+}
+
+.natem {
+    text-align: center;
+}
+
+.natem h4 {
+    color: #ff9700;
+    font-size: 18px;
+    font-family: 'Arimo', sans-serif;
+    margin-top: 20px;
+}
+
+.natem p {
+    color: #0303029d;
+    font-size: 12px;
+    font-family: 'Arimo', sans-serif;
+    margin-top: 10px;
+}
+
+.made {
+    text-align: center;
+}
+
+.made h4 {
+    color: #ff9700;
+    font-size: 18px;
+    font-family: 'Arimo', sans-serif;
+    margin-top: 20px;
+}
+
+.made p {
+    color: #0303029d;
+    font-size: 12px;
+    font-family: 'Arimo', sans-serif;
+    margin-top: 10px;
+}
+
+.pasde {
+    text-align: center;
+}
+
+.pasde h4 {
+    color: #ff9700;
+    font-size: 18px;
+    font-family: 'Arimo', sans-serif;
+    margin-top: 20px;
+}
+
+.pasde p {
+    color: #0303029d;
+    font-size: 12px;
+    font-family: 'Arimo', sans-serif;
+}
+
+.val{
+    margin-left: 520px;
+    margin-top: 100px;
+}
+.val button{
+    border: none;
+    width: 298px;
+    height: 89px;
+    background-color: #ff9700;
+    border-radius: 10px;
+}
+.val a{
+    text-decoration: none;
+    font-family: 'Arimo', sans-serif;
+    font-size: 14;
+    color: white;
+    font-weight: bold;
+}
+.val button:hover{
+    background-color: #d47e00 ;
+}

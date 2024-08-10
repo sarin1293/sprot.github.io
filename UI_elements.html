@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    </link>
+    <link rel="stylesheet" href="css/responsive.css">
+    </link>
+    <link rel="stylesheet" href="css/shop.css">
+    <link rel="stylesheet" href="css/UI_elements.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Roboto:ital,wght@1,300&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="img/WlWIwucS_400x400 .png">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <title>UI Elements | EightOrange Templates</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-light " style="background-color: #d3d2d2;">
+        <div class="container">
+            <a class="navbar-brand" style=" font-size: 14px;font-weight:12px; color: rgba(0, 0, 0, 0.575);">Welcome
+                Customer</a>
+            <form class="d-flex">
+                <ul class="nav nav-pills nav-fill">
+                    <li class="nav-item" style="margin-top: 10px;">
+                        <a href="#"><i class="text-dark fa-brands fa-facebook m-1"></i></a>
+                    </li>
+                    <li class="nav-item" style="margin-top: 10px;">
+                        <a href="#"><i class="text-dark fa-brands fa-twitter m-1"></i></i></a>
+                    </li>
+                    <li class="nav-item" style="margin-top: 10px;">
+                        <a href="#"><i class="text-dark fa-brands fa-linkedin m-1"></i></a>
+                    </li>
+                    <li class="nav-item" style="margin-top: 10px;">
+                        <a href="#"><i class="text-dark fa-brands fa-google-plus m-1"></i></a>
+                    </li>
+                    <li class="nav-item" style="margin-top: 10px;">
+                        <a href="#"><i class=" text-dark fa-brands fa-telegram m-1"></i></a>
+                    </li>
+                </ul>
+                <select class="mb-0" style="border: none; background-color:#d3d2d2;outline: none !important;
+              box-shadow: none; font-weight: bold;">
+                    <option selected>USD</option>
+                    <option value="1">EUR</option>
+                    <option value="2">GBP</option>
+                    <option value="3">JPY</option>
+                </select>
+            </form>
+        </div>
+    </nav>
+    <nav class="manu">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 logo ">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <div class="search-bar col-lg-6">
+                    <div class="categories">
+                        <select>
+                            <option value="all">All Categories</option>
+                            <option value="electronics">Electronics</option>
+                            <option value="clothing">Clothing</option>
+                            <option value="home">Home</option>
+                        </select>
+                    </div>
+                    <div class="search-input">
+                        <input type="text" placeholder="Search in our store">
+                        <i style="color: #fbb00e;margin:auto;" class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+    
+                <div class="col-lg-1" style="display: flex;flex-direction: column;padding: 0px 10px;">
+                    <a href="#"><i class="fa-solid fa-circle-user fa-lg me-1 account-icon"
+                            style=" font-size: 30px; color: #fbb00e;margin-top: 20px;"></i></i></a>
+                    <div class="btn-group ">
+                        <button type="button"
+                            style="font-family: 'Arimo', sans-serif;font-size: 12px;color: #fbb00e;margin-left: -20px;"
+                            class="btn dropdown-toggle account" data-bs-toggle="dropdown" aria-expanded="false">
+                            ACCOUNT
+                        </button>
+                        <ul class="dropdown-menu text-center">
+                            <li><button onclick="document.getElementById('id02').style.display='block'"
+                                    style="width:auto; background: none; border: none;"><a>Create Account</a></button></a>
+                            </li>
+                            <li><button onclick="document.getElementById('id01').style.display='block'"
+                                    style="width:auto; background: none; border: none;"><a>Login</a></button></li>
+                            <li><a href="myWishlist.html">Wish List</a></li>
+                            <li><a href="shopping.html">My Cart</a></li>
+                            <li><a href="myOrders.html">My Orders</a></li>
+                            <li><a href="index.html">Logout</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-1 cart" style="display: flex;flex-direction: column;padding: 0px 10px;">
+                    <a href="shopping.html"><i class="fa-solid fa-cart-shopping fa-lg me-1"
+                            style=" font-size: 30px; margin-top: 20px; color: #fbb00e; "></i></a>
+                    <a href="shopping.html" style="margin-top: 1px; text-decoration: none;"><span
+                            style="font-family: 'Arimo', sans-serif;font-size: 12px; font-weight:bold;color: #fbb00e">MY
+                            CART</span>
+                    </a>
+                </div>
+            </div>
+    </nav>
+    <nav class="navbar-brand">
+    <ul class="nav-links">
+      <div class="links">
+        <div class="burger"><i class="fa-solid fa-xmark"></i></div>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="shop.html">SHOP</a></li>
+        <li><a href="shop.html">CATEGORIES</a></li>
+        <li><a href="contact.html"> CONTACT</a></li>
+        <li><a href="UI_elements.html">UI ELEMENTS</a></li>
+        <li>
+          <div class="drop">
+            <button>
+              <p id="btnpage" style="height: 50px; cursor: pointer;">PAGES</p>
+            </button>
+
+            <div class="con" id="list">
+              <a class="bbb" href="blank.html">Blank Page</a>
+              <a class="bbb" href="checkout.html">Checkout</a>
+               <a class="bbb" href="account.html">My Account</a>
+              <a class="bbb" href="myOrders.html">My Orders</a>
+              <a class="bbb" href="myWishlist.html">My Wishlist</a>
+              <a class="bbb" href="productDetail.html">Product Details</a>
+              <a class="bbb" href="updateAccount.html">Update Account Information</a>
+              <a class="bbb" href="UpdatePayment.html">Update Account Payment</a>
+              <a class="bbb" href="dashboard.html">Dashboard</a>
+              <a class="bbb" href="Error.html">Error Page</a>
+              <a class="bbb" href="FileNotFound.html">Page Not Found</a>
+            </div>
+          </div>
+        </li>
+        <div class="search">
+          <input type="text" placeholder="Search in our store">
+          <i style="color: #fbb00e;margin:auto;" class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+    </ul>
+    <div class="burger-menu">&#9776;</div>
+    </div>
+  </nav>
+  <nav class="manubes">
+    <ul class="nav-links-vse">
+     
+        <li style="margin-top:  3px;"><a href="index.html">HOME</a></li>
+    
+      <li style="margin-top:  3px"><a href="about.html">ABOUT</a></li>
+      <li style="margin-top:  3px"><a href="shop.html">SHOP</a></li>
+      <li style="margin-top:  3px"><a href="shop.html">CATEGORIES</a></li>
+      <li style="margin-top:  3px;"><a href="contact.html">CONTACT</a></li>
+       <div class="active">
+        <li style="margin-top:  3px"><a href="UI_elements.html">UI ELEMENTS</a></li>
+       </div>
+      <li>
+        <div class="dropdown">
+          <button style="padding: 0px 20px; height: 50px;"><a
+              style="font-weight: bold; font-size: 16px; margin-left: -20px;" href="#">PAGES</a></button>
+          <div class="content">
+           <a class="bbb" href="blank.html">Blank Page</a>
+              <a class="bbb" href="checkout.html">Checkout</a>
+               <a class="bbb" href="account.html">My Account</a>
+              <a class="bbb" href="myOrders.html">My Orders</a>
+              <a class="bbb" href="myWishlist.html">My Wishlist</a>
+              <a class="bbb" href="productDetail.html">Product Details</a>
+              <a class="bbb" href="updateAccount.html">Update Account Information</a>
+              <a class="bbb" href="UpdatePayment.html">Update Account Payment</a>
+              <a class="bbb" href="dashboard.html">Dashboard</a>
+              <a class="bbb" href="Error.html">Error Page</a>
+              <a class="bbb" href="FileNotFound.html">Page Not Found</a>
+          </div>
+        </div>
+      </li>
+
+    </ul>
+  </nav>
+    <!-- end index -->
+    <!-- CREATE ACCOUNT -->
+    <div id="id02" class="modal dfdfff">
+    
+        <form class="modal-content-a animate-a" method="post" style="margin-top: 10px;">
+            <div class="imgcontainer-a">
+                <span onclick="document.getElementById('id02').style.display='none'" class="close-a" title="Close Modal"
+                    style="margin-top: -20px;">&times;</span>
+    
+            </div>
+            <div class="row text-center " style="color: #fbb00e; font-weight: bold;">
+                <h1>Create Login</h1>
+            </div>
+    
+    
+            <div class="container">
+                <label class="fdfser-a" for="uname"><b></b></label>
+                <input type="text" placeholder="First Name" name="First Name" required>
+                <label class="fdfser-a" for="uname"><b></b></label>
+                <input type="text" placeholder="Last Name" name="Last Name" required>
+                <label class="fdfser-a" for="uname"><b></b></label>
+                <input type="text" placeholder="Email" name="Email" required>
+    
+                <label class="fdfser-a" for="psw"><b></b></label>
+                <input class="form-control border-2" style="border-color: #fbb00e;" type="password"
+                    placeholder="Enter Password" name="psw" required>
+                <label class="fdfser-a" for="psw"><b></b></label>
+                <input class="form-control border-2" style="border-color: #fbb00e;" type="password"
+                    placeholder="Confirm Password" name="psw" required>
+                <button class="vbfft-a" type="submit">Login</button>
+    
+            </div>
+    
+            <div class="container">
+                <button type="button" onclick="document.getElementById('id02').style.display='none'"
+                    class="cancelbtn-a">Cancel</button>
+                <span class="psw-a"> <a href="#"
+                        style="text-decoration: none;color: #fbb00e; font-weight: bold;">Login</a></span>
+            </div>
+        </form>
+    </div>
+    <!-- end CREATE ACCOUNT -->
+    
+    <!-- login -->
+    <div id="id01" class="modal safre">
+    
+        <form class="modal-content-p animate" method="post " style="margin-top: 10px;">
+    
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                    title="Close Modal"></span>
+                <img src="img/user (1).png" alt="Avatar" class="showImage1 avatar ">
+                <label for="formFileLg" class="form-label"></label>
+                <input class="image1 form-control im form-control-lg mt-2" id="image" type="file" />
+            </div>
+    
+            <div class="container">
+                <label class="fdfser" for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+    
+                <label class="fdfser" for="psw"><b>Password</b></label>
+                <input class="form-control border-2" style="border-color: #fbb00e;" type="password"
+                    placeholder="Enter Password" name="psw" required>
+    
+                <button class="vbfft" type="submit">Login</button>
+    
+            </div>
+            <label class=" Remember text-center">
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+            <div class="container">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                    class="cancelbtn">Cancel</button>
+                <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+        </form>
+    </div>
+    <!-- end login -->
+    <!-- body -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="product-top-index shadow-sm text-white  p-4 ps-4 mt-4"
+                    style="border-radius: 10px; background: #d2d2d2;">
+                    <span class="h5" style="color: rgba(0, 0, 0, 0.747); font-weight: bold;"> BUTTONS</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="product-top-index shadow-sm text-white bg-dark p-4 ps-4 mt-4" style="border-radius: 10px;">
+                    <span class="h5"> DARK BUTTONS</span>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="product-top-index frty shadow-sm text-white  p-4 ps-4 mt-4">
+                    <span class="h5"> NORMAL BUTTONS</span>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="product-top-index shadow-sm text-white  p-4 ps-4 mt-4"
+                    style="background-color:  #d47e00;border-radius: 10px;">
+                    <span class="h5"> HOVER BUTTONS</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3">
+                <div class="product-top-index frty shadow-xs text-white  p-2 ps-4 mt-5">
+                    <span class="h5"> XS-BUTTONS</span>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="product-top-index frty shadow-sm text-white  p-3 ps-4 mt-5">
+                    <span class="h5"> SM-BUTTONS</span>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="product-top-index frty shadow-md text-white  p-4 ps-4 mt-5">
+                    <span class="h5"> MD-BUTTONS</span>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="product-top-index frty shadow-lg text-white  p-5 ps-4 mt-5">
+                    <span class="h5"> LG-BUTTONS</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="product-top-index shadow-sm text-white bg-dark p-4 ps-4 mt-4">
+                    <span class="h5"> DARK BUTTONS</span>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="product-top-index jkrit shadow-sm text-white  p-4 ps-4 mt-4">
+                    <span class="h5"> NORMAL BUTTONS</span>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="product-top-index  shadow-sm text-white p-4 ps-4 mt-4" style="background-color:  #d47e00;">
+                    <span class="h5"> HOVER BUTTONS</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="product-top-index shadow-sm text-dark  p-4 ps-4 mt-4"
+                    style="border-radius: 10px; background: #d2d2d2;">
+                    <span class="h5" style="color: rgba(0, 0, 0, 0.747); font-weight: bold;"> TYPOGRAPHY</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 mt-5">
+                <h1>H1 Title</h1>
+                <h2>H2 Title</h2>
+                <h3>H3 Title</h3>
+                <h4>H4 Title</h4>
+                <h1 style="font-family: 'Arimo', sans-serif;font-size: 60px;">Page Title</h1>
+            </div>
+            <div class="col-lg-8 mt-5">
+                <h5>Paragraph Title</h5><br>
+                <p style="font-family: 'Arimo', sans-serif;font-size: 14px;">Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Minima rerum rem reiciendis harum voluptate
+                    ipsa neque voluptatum consequuntur incidunt, quasi quisquam eveniet adipisci maxime iure nihil
+                    assumenda sint? Officia eum iusto sit magnam aliquam blanditiis quae fuga, cupiditate culpa minima
+                    exercitationem earum consectetur voluptates ipsum ea vitae! Dolore ab reiciendis, labore, porro quae
+                    nesciunt voluptatibus fuga recusandae minima deserunt sit unde, odio natus eligendi. Deserunt,
+                    mollitia. Voluptate earum esse modi ipsum qui veritatis animi ducimus. Blanditiis, rem
+                    reprehenderit? Facere sequi quibusdam laborum iure alias quam, inventore similique obcaecati et?
+                    Numquam illo vero qui mollitia blanditiis nemo laudantium maiores rerum at!</p>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-lg-4 mt-5">
+                <h5><b>PRIMARY FONT ( ARIMO BOLD )</b></h5>
+                <h5>SECONDARY FONT ( ARIMO REGULAR )</h5>
+                <h5><i>OPTIONAL FONT ( ARIMO ITALIC )</i></h5>
+            </div>
+            <div class="col-lg-8">
+                <h5>LOWER PARAGRAPH TITLE</h5><br>
+                <p style="font-family: 'Arimo', sans-serif;font-size: 14px;">Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Numquam amet tempore enim? Voluptate quia
+                    optio quisquam harum dicta, nemo eligendi distinctio repellendus nobis consequatur praesentium fugit
+                    velit commodi! Impedit quidem cumque porro tempore temporibus, corrupti doloribus cupiditate enim,
+                    quibusdam distinctio ullam. Quaerat magni voluptates beatae rerum quasi natus voluptatum delectus
+                    animi laborum? Voluptate non architecto atque repellendus amet, perferendis fugiat pariatur hic.
+                    Alias cum optio maxime debitis necessitatibus beatae, quaerat repudiandae labore dolores commodi
+                    nesciunt ullam accusamus sapiente aut officiis voluptatem harum laudantium a incidunt! Nesciunt
+                    recusandae maiores suscipit fugiat sit totam magni, in, aspernatur, voluptatibus id possimus
+                    provident amet.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="product-top-index shadow-sm text-white  p-4 ps-4 mt-4"
+                    style="border-radius: 10px; background: #d2d2d2;">
+                    <span class="h5" style="color: rgba(0, 0, 0, 0.747); font-weight: bold;"> PANELS</span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 mt-5">
+                <div class="card text-white  mb-3"
+                    style="max-width: 50rem;border: none;border-radius: 10px; background: #d2d2d2;">
+                    <div class="card-index"
+                        style="color: rgba(0, 0, 0, 0.842);border-radius: 10px 10px 0px 0px;border: none; font-weight: bold;">
+                        BASIC PANEL</div>
+                    <div class="card-body">
+                        <p style="color: black;font-family: 'Arimo', sans-serif;font-size: 12px;">Lorem ipsum dolor sit
+                            amet, consectetur adipisicing elit. Omnis quaerat
+                            magni natus accusamus
+                            sint
+                            cumque soluta nemo nulla ducimus reiciendis eos numquam, ipsum non rem earum laboriosam
+                            repellat
+                            quos optio, perferendis sit libero error! Aut odio perspiciatis labore? Accusamus, optio
+                            nobis!
+                            Corrupti dolor modi vel numquam minima eos quaerat eum, harum id sit libero iusto soluta
+                            tempora sed
+                            fugiat? Dolore alias necessitatibus, ullam quo doloremque sit delectus error eveniet vel
+                            sint
+                            voluptatum omnis quod corporis nulla ut, architecto fugiat non amet praesentium aperiam
+                            molestias
+                            id. Quod voluptates accusantium error at?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 mt-5">
+                <div class="card text-white  mb-3"
+                    style="max-width: 50rem;border: none;border-radius: 10px; background: #d2d2d2;">
+                    <div class="card-index"
+                        style="border-radius: 10px 10px 0px 0px; background: #444444;font-weight: bold;">ACTIVE PANEL
+                    </div>
+                    <div class="card-body">
+                        <p style="color: black;font-family: 'Arimo', sans-serif;font-size: 12px;">Lorem ipsum dolor sit
+                            amet, consectetur adipisicing elit. Omnis quaerat
+                            magni natus accusamus
+                            sint
+                            cumque soluta nemo nulla ducimus reiciendis eos numquam, ipsum non rem earum laboriosam
+                            repellat
+                            quos optio, perferendis sit libero error! Aut odio perspiciatis labore? Accusamus, optio
+                            nobis!
+                            Corrupti dolor modi vel numquam minima eos quaerat eum, harum id sit libero iusto soluta
+                            tempora sed
+                            fugiat? Dolore alias necessitatibus, ullam quo doloremque sit delectus error eveniet vel
+                            sint
+                            voluptatum omnis quod corporis nulla ut, architecto fugiat non amet praesentium aperiam
+                            molestias
+                            id. Quod voluptates accusantium error at?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 mt-5">
+                <div class="card text-white  mb-3"
+                    style="max-width: 50rem;border: none;border-radius: 10px; background: #d2d2d2;">
+                    <div class="card-index"
+                        style="color: white;border-radius: 10px 10px 0px 0px;border: none; font-weight: bold;background-color: #ff9700;">
+                        BASIC PANEL</div>
+                    <div class="card-body">
+                        <p style="color: black;font-family: 'Arimo', sans-serif;font-size: 12px;">Lorem ipsum dolor sit
+                            amet, consectetur adipisicing elit. Omnis quaerat
+                            magni natus accusamus
+                            sint
+                            cumque soluta nemo nulla ducimus reiciendis eos numquam, ipsum non rem earum laboriosam
+                            repellat
+                            quos optio, perferendis sit libero error! Aut odio perspiciatis labore? Accusamus, optio
+                            nobis!
+                            Corrupti dolor modi vel numquam minima eos quaerat eum, harum id sit libero iusto soluta
+                            tempora sed
+                            fugiat? Dolore alias necessitatibus, ullam quo doloremque sit delectus error eveniet vel
+                            sint
+                            voluptatum omnis quod corporis nulla ut, architecto fugiat non amet praesentium aperiam
+                            molestias
+                            id. Quod voluptates accusantium error at?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 mt-5">
+                <div class="card text-white  mb-3"
+                    style="max-width: 50rem;border: none;border-radius: 10px; background: #ff9700;">
+                    <div class="card-index"
+                        style="border-radius: 10px 10px 0px 0px; background: #ff9700;font-weight: bold;border: none;">
+                        ACTIVE PANEL
+                    </div>
+                    <div class="card-body">
+                        <p style="color: white;font-family: 'Arimo', sans-serif;font-size: 12px;">Lorem ipsum dolor sit
+                            amet, consectetur adipisicing elit. Omnis quaerat
+                            magni natus accusamus
+                            sint
+                            cumque soluta nemo nulla ducimus reiciendis eos numquam, ipsum non rem earum laboriosam
+                            repellat
+                            quos optio, perferendis sit libero error! Aut odio perspiciatis labore? Accusamus, optio
+                            nobis!
+                            Corrupti dolor modi vel numquam minima eos quaerat eum, harum id sit libero iusto soluta
+                            tempora sed
+                            fugiat? Dolore alias necessitatibus, ullam quo doloremque sit delectus error eveniet vel
+                            sint
+                            voluptatum omnis quod corporis nulla ut, architecto fugiat non amet praesentium aperiam
+                            molestias
+                            id. Quod voluptates accusantium error at?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="product-top-index shadow-sm text-dark  p-4 ps-4 mt-4"
+                    style="border-radius: 10px; background: #d2d2d2;">
+                    <span class="h5" style="color: rgba(0, 0, 0, 0.747); font-weight: bold;"> FORMS</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6  " style="margin-top: 30px;">
+                <form class="mt-5">
+                    <div class="mb-3">
+                        <input class="form-control p-3" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="PRIMARY INPUT">
+                    </div>
+                    <div class="mb-3 mt-4">
+                        <input class="form-control p-3 border-warning" id="exampleInputPassword1"
+                            placeholder="DEFAULT INPUT">
+                    </div>
+                    <div class="mb-3 mt-4">
+                        <div class=" form-control border-warning">
+                            <select style="width: 100%; border: none;">
+                                <option value="all">All Categories</option>
+                                <option value="electronics">Electronics</option>
+                                <option value="clothing">Clothing</option>
+                                <option value="home">Home</option>
+                            </select>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-lg-6 terso mt-5 text-center">
+                <div class="card border-0">
+                    <img src="img/2103.i511.013.S.m009.c12.repair service office flat.jpg" alt="...">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="product-top-index shadow-sm text-dark  p-4 ps-4 mt-4"
+                    style="border-radius: 10px; background: #d2d2d2;">
+                    <span class="h5" style="color: rgba(0, 0, 0, 0.747); font-weight: bold;"> PAYMENT WIDGETS</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4 text-center">
+            <div class="col-lg-2">
+                <img src="img/visa.png">
+            </div>
+            <div class="col-lg-2">
+                <img src="img/mastercard.png">
+            </div>
+            <div class="col-lg-2">
+                <img src="img/maestro.png">
+            </div>
+            <div class="col-lg-2">
+                <img src="img/paypal.png">
+            </div>
+            <div class="col-lg-2">
+                <img src="img/western-union (1)1.png">
+            </div>
+            <div class="col-lg-2">
+                <img src="img/amazon.png">
+            </div>
+        </div>
+
+        <div class="row mt-4 text-center">
+            <div class="col-lg-2">
+                <img src="img/discover.png">
+            </div>
+            <div class="col-lg-2">
+                <img src="img/american-express.png">
+            </div>
+        </div>
+    </div>
+    <!-- end body -->
+    <!-- footer -->
+    <section class="section-subscribe col-xl-12 mt-5" style="background-color: #ff9700;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-12 mb-4">
+                    <h1 class="nana heading text-light justify-content-center d-flex pt-5 pb-2"
+                        style="font-family: 'Arimo', sans-serif;">
+                        JOIN EIGHTORANGE STORE
+                    </h1>
+                    <p class="heading text-light justify-content-center d-flex">
+                        AND GET GIFTS, PROMO CODES, AND MORE
+                    </p>
+                </div>
+            </div>
+            <div class="col-mb-12">
+                <form action="your_processing_script.php" method="POST">
+                    <div class="row">
+                        <div class="col-sm-4 mb-4 sart">
+                            <input type="text" id="name" name="name" placeholder="Your Name*">
+                        </div>
+                        <div class="col-sm-4 mb-4 Fart">
+                            <input type="text" id="name" name="Email" placeholder="Your Email*">
+
+                        </div>
+
+                        <div class="col-sm-4 mb-4 center geart">
+                            <button type="submit" class="btn " style="background-color: rgba(0, 0, 0, 0.548); ">
+                                <a href="#">SUBSCRIBE</a>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container col-lg-12 mt-5">
+            <div class="row">
+                <div class="col-lg-3 tata">
+                    <h5 class="galo">ABOUT US</h5>
+                    <div class="maje mt-5">
+                        <p>
+                            <i class="fas fa-home text-warning mr-2"></i> 85, Broadway - New York / NY USA
+                        </p>
+                        <p>
+                            <i class="fas fa-phone text-warning mr-3"></i>+92 3162859445
+                        </p>
+                        <p>
+                            <i class="fas fa-envelope text-warning mr-2"></i> theproviders98@gmail.com
+                        </p>
+                        <div class="lina list-unstyled list-inline">
+                            <li class="list-inline-item a" style="margin-left: -10px;">
+                                <a href="#" class="btn-floating btn-sm text-warning" style="font-size: 20px;"><i
+                                        class="fab fa-facebook"></i></a>
+                            </li>
+                            <li class="list-inline-item " style="margin-left: -10px;">
+                                <a href="#" class="btn-floating btn-sm text-warning" style="font-size: 20px;"><i
+                                        class="fab fa-twitter"></i></a>
+                            </li>
+                            <li class="list-inline-item " style="margin-left: -10px;">
+                                <a href="#" class="btn-floating btn-sm text-warning " style="font-size: 20px;"><i
+                                        class="fab fa-google-plus"></i></a>
+                            </li>
+                            <li class="list-inline-item " style="margin-left: -10px;">
+                                <a href="#" class="btn-floating btn-sm text-warning" style="font-size: 20px;"><i
+                                        class="fab fa-linkedin-in"></i></a>
+                            </li>
+                            <li class="list-inline-item " style="margin-left: -10px;">
+                                <a href="#" class="btn-floating btn-sm text-warning" style="font-size: 20px;"><i
+                                        class="fab fa-youtube"></i></a>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 haha ">
+                    <h5 class="gale">INFORMATION</h5>
+                    <div class="faced mt-5">
+                        <p>
+                            <a href="#"> CONDITIONS</a> <br>
+                            <a href="#"> FAQ</a> <br>
+                            <a href="#">CATEGORIES</a> <br>
+                            <a href="#">PROMOTIONS</a> <br>
+                            <a href="#"> EULA</a> <br>
+                            <a href="#">THE STORE</a> <br>
+                            <a href="#">PRODUCTS</a> <br>
+                            <a href="#">PRODUCTS</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 kaka">
+                    <h5 class="gale">CATEGORIES</h5>
+                    <div class="javer mt-4">
+                        <p>
+                            <a href="#"> DIGITAL</a> <br>
+                            <a href="#"> SPORT</a> <br>
+                            <a href="#">FASHION</a> <br>
+                            <a href="#">CHILDREN</a> <br>
+                            <a href="#"> CHILDREN</a> <br>
+                            <a href="#">CHILDREN</a> <br>
+                            <a href="#">TOYS</a> <br>
+                            <a href="#">DECORATION</a> <br>
+                            <a href="#">JEWELRY</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 baba">
+                    <h5 class="gale">PRODUCT TAGS</h5>
+                    <div class="tahan">
+                        <div class="row mt-5">
+                            <div class="lok ">
+                                <a href="">laptop</a>
+                            </div>
+                            <div class="lok-a ">
+                                <a href="">smartphones</a>
+                            </div>
+                        </div>
+                        <div class="lok-b ">
+                            <a href="">yoga</a>
+                        </div>
+                        <div class="lok-c ">
+                            <a href="">gaming consoles</a>
+                        </div>
+                        <div class="lok-d ">
+                            <a href="">workout</a>
+                        </div>
+                        <div class="lok-e ">
+                            <a href="">fashion</a>
+                        </div>
+                        <div class="lok-f ">
+                            <a href="">kitchen</a>
+                        </div>
+                        <div class="lok-i ">
+                            <a href="">toys</a>
+                        </div>
+                        <div class="lok-n ">
+                            <a href="">hardware build composer</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <hr class="mb-4 container-fluid" style="width: 100%;">
+
+    <div class="container-fluid   ">
+        <div class="row ">
+            <div class=" col-lg-4  baya">
+                <p> © 2023 ALL RIGHTS RESERVED - EIGHT ORANGE BY :
+                    <a href="builder.html">
+                        <strong>SARIN AND TAME 9</strong>
+                    </a>
+                </p>
+            </div>
+            <div class="col-lg-3  baty">
+                <img src="img/payments.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- end footer -->
+</body>
+
+</html>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const burgerMenu = document.querySelector('.burger-menu');
+        const navLinks = document.querySelector('.nav-links');
+
+        burgerMenu.addEventListener('click', function () {
+            navLinks.classList.toggle('show');
+        });
+    });
+
+    document.addEventListener('DOMContentLoaded', function () {
+        const burgerMenu = document.querySelector('.burger');
+        const navLinks = document.querySelector('.nav-links');
+
+        burgerMenu.addEventListener('click', function () {
+            navLinks.classList.toggle('show');
+        });
+
+        document.getElementById("btnpage").onclick = function () {
+            var list = document.getElementById("list");
+            list.style.display = (list.style.display === "block") ? "none" : "block";
+        };
+    });
+
+
+    // Get the modal
+    var modal = document.getElementById('id01');
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+    // Get the modal create login
+    var dfdfff = document.getElementById('id02');
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        if (event.target == dfdfff) {
+            dfdfff.style.display = "none";
+        }
+    }
+
+      $(document).ready(function () {
+            $(".image1").change(function (e) {
+                var reader = new FileReader();
+                reader.onload = function (e) {
+                    $(".showImage1").attr('src', e.target.result);
+                }
+                reader.readAsDataURL(e.target.files['0']);
+            });
+        });
+        $(document).ready(function () {
+            $(".image2").change(function (e) {
+                var reader = new FileReader();
+                reader.onload = function (e) {
+                    $(".showImage1").attr('src', e.target.result);
+                }
+                reader.readAsDataURL(e.target.files['0']);
+            });
+        });
+</script>

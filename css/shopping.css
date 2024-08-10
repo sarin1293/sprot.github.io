@@ -1,0 +1,12 @@
+.dkjr {
+    border-radius: 10px;
+    background-color: rgba(12, 12, 12, 0.733);
+}
+.dkjr a{
+ text-decoration: none;
+ color: white;
+}
+.form-control{
+    margin-left: 10px;
+    width: 90%;
+}

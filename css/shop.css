@@ -1,0 +1,329 @@
+.shop{
+    margin-left: -340px;
+}
+.shop-a{
+    margin-left: 60px;
+}
+.shop-b{
+     margin-left: 80px;
+}
+.ustar {
+  margin-left: 65px;
+  margin-top: -20px;
+}
+.liop {
+  width: 70%;
+  height:50px;
+  background-color:#6c757d;
+  margin-left: 320px;
+   border-radius: 5px;
+margin-top: 40px;
+}
+
+
+.pagination a {
+  
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+.pagination{
+  display: inline-block;
+  margin-left: 280px;
+  margin-top: 5px;
+  
+}
+.pagination a.active {
+  background-color: #ff9700;
+  color: white;
+  border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ff9700;
+  border-radius: 5px;
+}
+/* Full-width input fields */
+
+.fdfser input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+ 
+}
+
+.Remember input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+
+}
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width:150px ;
+  height:150px ;
+  border-radius: 50%;
+}
+.psw {
+  float: right;
+  padding-top: 16px;
+}
+/* The Modal (background) */
+.safre {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 999; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 1px;
+   border-radius: 10px 10px;
+    overflow-y: hidden; 
+}
+/* Modal Content/Box */
+.modal-content-p {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  border-radius: 10px 10px;
+  width: 30%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+.vbfft  {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+  .cancelbtn{
+    
+    background-color: #aaa704;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 60%;
+   border-radius: 10px 10px;
+  }
+
+
+  /* create login */
+  /* Full-width input fields */
+
+.fdfser-a input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  
+}
+
+.Remember-a input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+
+}
+/* Extra styles for the cancel button */
+.cancelbtn-a {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f4e736;
+  font-weight: bold;
+ 
+  
+}
+
+/* Center the image and position the close button */
+.imgcontainer-a {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar-a {
+  width: 40%;
+  border-radius: 50%;
+}
+.psw-a {
+  float: right;
+  padding-top: 16px;
+}
+.imgcontainer-b {
+  width: 700px;
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+/* The Modal (background) */
+.dfdfff {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 999; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+   border-radius: 10px 10px;
+   overflow-y: hidden;
+    
+}
+
+/* Add Zoom Animation */
+.animate-a {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+/* Modal Content/Box */
+.modal-content-a {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 30%; /* Could be more or less, depending on screen size */
+  border-radius: 10px 10px;
+  
+}
+
+/* The Close Button (x) */
+.close-a {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close-a:hover,
+.close-a:focus {
+  color: red;
+  cursor: pointer;
+}
+
+
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  .psw-a {
+     display: block;
+     float: none;
+  }
+ 
+  .cancelbtn-a {
+     width: 100%;
+  }
+}
+.vbfft-a  {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+  .cancelbtn-a{
+    background-color: #aa9f04;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 60%;
+   border-radius: 10px 10px;
+  }
+.dfrew{
+  color: #f44336;
+}
+.dfrew:hover{
+  color: #701812;
+}

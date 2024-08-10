@@ -1,0 +1,9 @@
+.ster button{
+    font-family: 'Arimo', sans-serif;
+    width: 30%; 
+    background: orange;
+     border: none;
+}
+.ster button:hover{
+     background: #d47e00;
+}

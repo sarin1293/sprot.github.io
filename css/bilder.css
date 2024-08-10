@@ -1,0 +1,66 @@
+
+.grtt img{
+    width: 20%;
+    margin-top: -20px;
+}
+.nbgjg img{
+    width:20%;
+    margin-left: 15px;
+}
+
+/* ពាណិជ្ជកម្ម */
+.ass{
+    width: 961.3px;
+    height: 353.8px;
+    margin-top: -10px;
+   margin-left: 250px;
+}
+.ass p{
+    margin: 0;
+    font-weight: bold;
+}
+.table-img{
+    width: 961.3px;
+    height: 309.8px;
+    border-radius: 8px;
+    margin-top:16px;
+   
+}
+.ass-img{
+    width: 309.8px;
+    height: 309.8px;
+    float: left;
+    margin: 60px;
+}
+.ass-img:not(#first){
+    margin-left: 15.6px;
+}
+.ass-img img{
+    border-radius: 8px;
+}
+
+.ass-a{
+    width: 961.3px;
+    height: 353.8px;
+    margin-top: 100px;
+   margin-left: 180px;
+}
+.ass-a p{
+    margin: 0;
+    font-weight: bold;
+}
+.ass-a-img{
+    width: 309.8px;
+    height: 309.8px;
+    float: left;
+}
+.ass-a-img:not(#first){
+    margin-left: 15.6px;
+}
+.ass-a-img img{
+    border-radius: 8px;
+}
+.ass-a-img h1{
+    font-size: 20px;
+    font-family: 'Hanuman', serif;
+}

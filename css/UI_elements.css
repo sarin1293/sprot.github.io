@@ -1,0 +1,17 @@
+.frty{
+    background-color: #ff9700;
+    border-radius: 10px;
+}
+.frty:hover{
+    background-color:  #d47e00;
+}
+
+.jkrit{
+    background-color: #ff9700;
+}
+.jkrit:hover{
+    background-color:  #d47e00;
+}
+.terso img{
+ border-radius: 15px;
+}
